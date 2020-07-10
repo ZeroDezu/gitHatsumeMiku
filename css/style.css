@@ -1,0 +1,243 @@
+/*seleccinar estilos: etiquta, id(#), class(.)*/
+
+/*font-family: 'Courgette', cursive;*/
+/*font-family: 'Philosopher', sans-serif;*/
+/*font-family: 'Cardo', serif;*/
+/*tutorial de trasformaciones: https://www.youtube.com/watch?v=SmvOxWpsIW4*/
+/*font-family: 'Fascinate', cursive;*/
+/*font-family: 'Atomic Age', cursive;*/
+/*font-family: 'Monofett', cursive;*/
+/*font-family: 'Julee', cursive;*/
+/*font-family: 'Kavoon', cursive;*/
+
+/*Index*/
+#fondo01{
+    background: url('../img/698444.png');
+    background-size: cover;
+    min-height: 630px;
+}
+#logo{
+	height: 46px;
+    width: 46px;
+}
+.imgsocial{
+	height: 25px;
+	min-height: 20px;
+}
+#icon{
+	margin-top:5px;
+}
+#text{
+	margin-top:7px;
+	color: #fff;
+}
+/*Index*/
+/*Acerca*/
+#fondo02{
+	padding-top: 20px;
+	padding-bottom: 50px;
+	position: relative;
+    background-size: cover;
+    min-height: 630px;
+}
+#hatsune{
+	margin-top: 100px;
+	margin-left: 30px;
+	background: rgb(128, 0, 128);
+	color: #00e6e6;
+	border-radius: 25px;
+	border: 2px solid #000;
+}
+#acercasection02{
+	margin-top: 100px;
+	margin-left: 50px;
+	background: url('../img/119983.jpg');
+    background-size: cover;
+    border-radius: 25px;
+    border: 2px solid #000;
+}
+#acercatxt01,H1,H6,H3{
+	font-family: 'Fascinate', cursive;
+	color: #0fc;
+}
+#acercatxt02{
+	font-family: 'Atomic Age', cursive;
+	color: #99f;
+}
+/*Acerca*/
+/*Datos*/
+#datoimg01{
+	margin-top: 70px;
+	background: url('../img/687602.png');
+	background-size: cover;
+	min-height:500px;
+}
+
+#datotitulo01{
+	margin-top: 25px;
+	margin-bottom: 50px
+}
+#datotxt01, #datotxt02, #datotxt03{
+	box-shadow: 5px 5px 5px;
+	background: rgb(0, 204, 204);
+	border: 2px solid #000;
+	border-radius: 25px;
+}
+#datoimg02{
+	margin-top: 70px;
+	background: url('../img/322167.png');
+	background-size: cover;
+	min-height:500px;
+}
+
+#datotxt04{
+	padding-top: 50px;
+	background: rgb(255, 0, 102);
+	border-radius: 25px;
+	border: 2px solid #000;
+}
+
+#datoimg03{
+	background: url('../img/sakura.png');
+	background-size: cover;
+	min-height:205px
+}
+#datotxt05{
+	padding-top: 50px;
+	background: rgb(0, 204, 204);
+	border-radius: 25px;
+	border: 2px solid #000;
+}
+#datoimg04{
+	background: url('../img/snow.png');
+	background-size: cover;
+	min-height:250px
+}
+#temporada{
+	padding-bottom: 50px;
+}
+P,H5{
+	font-family: 'Kavoon', cursive;
+}
+#temporadahatsune{
+	font-family: 'Monofett', cursive;
+	color: #00cccc;
+}
+/*Datos*/
+/*Galeria*/
+#galerytitle{
+	padding-top: 100px;
+}
+
+#galeryimg01{
+	margin-top: 10px;
+	background: url('../img/275372.png');
+	background-size: cover;
+	height: 200px;
+	border-radius: 25px;
+	border: 2px solid #fff;
+	transition: 3s;
+}
+#galeryimg02{
+	margin-top: 10px;
+	background: url('../img/513327.jpg');
+	background-size: cover;
+	height: 200px;
+	border-radius: 25px;
+	border: 2px solid #fff;
+	transition: 3s;
+}
+#galeryimg03{
+	margin-top: 10px;
+	background: url('../img/673444.jpg');
+	background-size: cover;
+	height: 200px;
+	border-radius: 25px;
+	border: 2px solid #fff;
+	transition: 3s;
+}
+
+#galeryimg04{
+	margin-top: 10px;
+	background: url('../img/689941.png');
+	background-size: cover;
+	height: 200px;
+	border-radius: 25px;
+	border: 2px solid #fff;
+	transition: 3s;
+}
+#galeryimg05{
+	margin-top: 10px;
+	background: url('../img/462237.jpg');
+	background-size: cover;
+	height: 200px;
+	border-radius: 25px;
+	border: 2px solid #fff;
+	transition: 3s;
+}
+#galeryimg06{
+	margin-top: 10px;
+	background: url('../img/499248.png');
+	background-size: cover;
+	height: 200px;
+	border-radius: 25px;
+	border: 2px solid #fff;
+	transition: 3s;
+}
+#galeryimg01:hover{
+	transform: rotateY(360deg);
+}
+#galeryimg02:hover{
+	transform: rotateY(360deg);
+}
+#galeryimg03:hover{
+	transform: rotateY(360deg);
+}
+#galeryimg04:hover{
+	transform: rotateY(360deg);
+}
+#galeryimg05:hover{
+	transform: rotateY(360deg);
+}
+#galeryimg06:hover{
+	transform: rotateY(360deg);
+}
+
+#img01{
+	margin-top: 10px;
+	padding-top: 20px;
+}
+
+#img02{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#galerytxt01{
+	padding-top: 10px;
+}
+H1{
+	font-family: 'Courgette', cursive;
+	color: #000;
+}
+#galeryhatsune{
+	font-family: 'Monofett', cursive;
+	color: #000080;
+}
+#fondogalery{
+	border-radius: 25px;
+}
+/*Galeria*/
+/*Contacto*/
+#fondo03{
+    background: url('../img/688015.jpg');
+    background-size: cover;
+    min-height: 630px;
+}
+#contact{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+/*Contacto*/
